@@ -31,7 +31,7 @@ self-contained bootstrap mechanism for the build.
 ### Checkout sources
 
 ```bash
-git clone https://github.com/kuraun/webauthn4j-spring-security-auth-server
+git clone https://github.com/kuraun/webauthn4j-spring-security-sample-auth-server
 ```
 
 ### Build all jars
