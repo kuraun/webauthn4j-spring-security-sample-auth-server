@@ -1,0 +1,16 @@
+server:
+  port: 9000
+  servlet:
+    session:
+      tracking-modes: cookie
+  forward-headers-strategy: framework
+
+logging:
+  level:
+    root: DEBUG
+    com.webauthn4j: DEBUG
+    org.springframework.web: DEBUG
+    org.springframework.security: DEBUG
+    org.springframework.security.oauth2: DEBUG
+#    org.springframework.boot.autoconfigure: DEBUG
+
